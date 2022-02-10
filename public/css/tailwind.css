@@ -734,17 +734,24 @@ select {
   background-color: rgb(143 162 6 / var(--tw-bg-opacity));
 }
 
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
-
 .bg-hierbabuena {
   background-image: url('../img/hierbabuena.jpg');
 }
 
-.bg-new_york {
-  background-image: url('../img/new_york.jpg');
+.bg-manzanilla {
+  background-image: url('../img/manzanilla.jpg');
+}
+
+.bg-sabila {
+  background-image: url('../img/sabila.jpg');
+}
+
+.bg-stevia {
+  background-image: url('../img/stevia.jpg');
+}
+
+.bg-arnica {
+  background-image: url('../img/arnica.jpg');
 }
 
 .bg-cover {
@@ -791,11 +798,6 @@ select {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-semibold {
