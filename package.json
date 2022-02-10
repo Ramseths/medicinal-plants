@@ -1,0 +1,41 @@
+{
+    "name": "machine_learning_world",
+    "version": "1.0.0",
+    "description": "It is a practice project to learn Tailwind CSS, I gave a focus to the world of Machine Learning by placing the most popular algorithms today.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ramseths/machine_learning_world.git"
+    },
+    "keywords": [
+        "tailwind",
+        "css",
+        "ml",
+        "machine",
+        "learning",
+        "ai",
+        "top",
+        "tips",
+        "algoritmos"
+    ],
+    "author": "Jesus Ramseths",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Ramseths/machine_learning_world/issues"
+    },
+    "homepage": "https://github.com/Ramseths/machine_learning_world#readme",
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.5.1",
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.6",
+        "tailwindcss": "^2.2.19"
+    },
+    "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.4.0",
+        "@tailwindcss/forms": "^0.4.0"
+    }
+}

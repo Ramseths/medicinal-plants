@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.card {
+    @apply w-52 h-72 shadow-lg rounded-lg flex-none
+}
