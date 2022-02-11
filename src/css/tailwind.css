@@ -2,5 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 .card {
-    @apply w-52 h-72 shadow-lg rounded-lg flex-none
+    @apply w-52 h-72 shadow-lg rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
 }
