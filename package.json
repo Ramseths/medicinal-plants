@@ -1,7 +1,7 @@
 {
-    "name": "machine_learning_world",
+    "name": "medicinal_plants",
     "version": "1.0.0",
-    "description": "It is a practice project to learn Tailwind CSS, I gave a focus to the world of Machine Learning by placing the most popular algorithms today.",
+    "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,25 +9,25 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Ramseths/machine_learning_world.git"
+        "url": "git+https://github.com/Ramseths/medicinal-plants.git"
     },
     "keywords": [
         "tailwind",
         "css",
-        "ml",
-        "machine",
+        "medicinal",
+        "plants",
         "learning",
-        "ai",
-        "top",
-        "tips",
-        "algoritmos"
+        "plantas",
+        "medicina",
+        "curas",
+        "fotos_plantas"
     ],
     "author": "Jesus Ramseths",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Ramseths/machine_learning_world/issues"
+        "url": "https://github.com/Ramseths/medicinal-plants/issues"
     },
-    "homepage": "https://github.com/Ramseths/machine_learning_world#readme",
+    "homepage": "https://github.com/Ramseths/medicinal-plants#readme",
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.1",
         "autoprefixer": "^10.4.2",
