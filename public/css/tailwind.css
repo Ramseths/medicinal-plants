@@ -638,6 +638,14 @@ select {
   position: absolute;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -690,6 +698,10 @@ select {
   height: 24rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -700,6 +712,10 @@ select {
 
 .w-auto {
   width: auto;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .transform {
@@ -742,6 +758,12 @@ select {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -780,6 +802,21 @@ select {
 .bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(143 162 6 / var(--tw-bg-opacity));
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-hierbabuena {
@@ -834,6 +871,10 @@ select {
   padding: 1.5rem;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -867,6 +908,10 @@ select {
   padding-top: 0.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-Montserrat {
   font-family: Montserrat, sans-serif;
 }
@@ -889,6 +934,11 @@ select {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-semibold {
@@ -917,6 +967,26 @@ select {
 .text-blue-900 {
   --tw-text-opacity: 1;
   color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .shadow-sm {
